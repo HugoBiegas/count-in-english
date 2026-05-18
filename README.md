@@ -2,6 +2,8 @@
 
 Site d'entraînement à la prononciation des nombres en anglais (nombres, années, heures, dates, décimaux, fractions, ordinaux, téléphones, argent).
 
+🔗 **[Accéder à l'application](https://hugobiegas.github.io/count-in-english/)**
+
 ## Fonctionnalités
 
 - **Mode flashcards** : un élément aléatoire s'affiche, tu le dis à voix haute, tu cliques pour révéler la réponse, puis « Suivant ».
@@ -14,22 +16,6 @@ Site d'entraînement à la prononciation des nombres en anglais (nombres, année
 ## Stack
 
 HTML + CSS + JavaScript natifs. Aucune dépendance, aucun build, un seul fichier.
-
-## Déploiement sur GitHub Pages
-
-1. Crée un dépôt GitHub (par exemple `count-in-english`).
-2. Ajoute le fichier `index.html` à la racine.
-3. Sur GitHub : **Settings** → **Pages** → **Source** : sélectionner la branche `main` et le dossier `/ (root)`.
-4. Le site sera accessible à `https://<ton-pseudo>.github.io/count-in-english/`.
-
-## Test local
-
-Comme c'est statique, ouvrir `index.html` dans un navigateur suffit, ou bien :
-
-```bash
-python3 -m http.server 8000
-# puis ouvrir http://localhost:8000
-```
 
 ## Structure du code
 
